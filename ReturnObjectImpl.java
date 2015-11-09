@@ -42,7 +42,7 @@ public class ReturnObjectImpl implements ReturnObject {
 		if(!this.hasError()) {
 			return this.myArray[inDex];
 		} else {
-			return null;
+			return this.getError();
 		}
 	}
 
