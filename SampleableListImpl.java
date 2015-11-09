@@ -20,7 +20,8 @@ public class SampleableListImpl implements SampleableList {
 			kekka.list = result;
 			return kekka;
 		} else {
-			return null;
+			SampleableListImpl empty = new SampleableListImpl();
+			return empty;
 		}
 	}
 
